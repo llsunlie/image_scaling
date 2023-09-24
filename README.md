@@ -11,3 +11,4 @@ image_scaling
 4. 三次B样条 CubicBSpline
 5. 拉格朗日 Lagrange
 6. 牛顿 Newton
+7. 兰索斯 Lanczos2, Lanczos3
