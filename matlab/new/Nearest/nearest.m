@@ -16,3 +16,5 @@ for i = 1 : row_num2
     end
 end
 img2 = uint8(img2);
+
+% https://blog.csdn.net/qq_40317204/article/details/105614120

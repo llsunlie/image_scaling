@@ -10,3 +10,4 @@ image_scaling
 3. 双立方 Bicubic
 4. 三次B样条 CubicBSpline
 5. 拉格朗日 Lagrange
+6. 牛顿 Newton
