@@ -12,3 +12,4 @@ image_scaling
 5. 拉格朗日 Lagrange
 6. 牛顿 Newton
 7. 兰索斯 Lanczos2, Lanczos3
+8. 香农 Shannon
