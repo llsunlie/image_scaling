@@ -56,10 +56,10 @@ ARGS_FOR_LANGRANGE = [
     [1920, 1080, 3]
 ];
 ARGS_FOR_NEWTON = [
-    [160, 90, 2];
-    [640, 360, 2];
-    [1280, 720, 2];
-    [1920, 1080, 2]
+    [160, 90, 3];
+    [640, 360, 3];
+    [1280, 720, 3];
+    [1920, 1080, 3]
 ];
 ARGS_FOR_SHANNON = [
     [160, 90, 3];
@@ -94,9 +94,9 @@ for idx = 1 : length(src_path_list)
             case "lagrange"
                 args = ARGS_FOR_LANGRANGE;
             case "newton"
-                args = ARGS_FOR_LANGRANGE;
+                args = ARGS_FOR_NEWTON;
             case "shannon"
-                args = ARGS_FOR_LANGRANGE;
+                args = ARGS_FOR_SHANNON;
             otherwise
                 args = ARGS;
         end

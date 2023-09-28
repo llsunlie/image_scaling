@@ -1,6 +1,3 @@
-# image_scaling
-image_scaling
-
 # 目前实现
 
 ### matlab

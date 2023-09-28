@@ -94,9 +94,9 @@ for idx = 1 : length(src_path_list)
             case "lagrange"
                 args = ARGS_FOR_LANGRANGE;
             case "newton"
-                args = ARGS_FOR_LANGRANGE;
+                args = ARGS_FOR_NEWTON;
             case "shannon"
-                args = ARGS_FOR_LANGRANGE;
+                args = ARGS_FOR_SHANNON;
             otherwise
                 args = ARGS;
         end
