@@ -9,7 +9,7 @@ addpath '../algorithm/Newton'
 addpath '../algorithm/Shannon'
 
 % 目标路径
-TARGET_DIR = '../data/target/';
+TARGET_DIR = '../../data/target/';
 
 % 构造 IMG 路径与文件名
 IMG_META_NAME = 'img2';
@@ -20,7 +20,7 @@ IMG_RESOLUTION_RATIO_LIST = [
     [1080, 1920]
 ];
 IMG_SUFFIX = '.png';
-SRC_DIR = '../data/src/';
+SRC_DIR = '../../data/src/';
 src_path_list = [];
 for idx = 1 : length(IMG_RESOLUTION_RATIO_LIST)
     irr = IMG_RESOLUTION_RATIO_LIST(idx, :);
