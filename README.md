@@ -1,4 +1,4 @@
-# 图像缩放算法
+# 插值算法
 
 1. 最近邻 Nearest
 2. 双线性 Bilinear
@@ -25,3 +25,47 @@
 
 ### S_PSNR
 S-PSNR是一种基于结构信息的图像评估指标。它将图像分解为多个结构组件，并对每个结构组件的PSNR进行计算，然后对各个结构组件的PSNR值进行加权求和，得到最终的评估结果。S-PSNR主要用于考虑图像结构重要性的图像质量评估。
+
+# 目录结构
+```
+├─data
+│  ├─src        # [存放原图像]
+│  │  ├─img1_1280x720.png
+│  │  ├─img1_160x90.png
+│  │  └─...
+│  └─target     # [存放缩放后的图像]
+│      ├─img1_1280x720      # [被缩放的图像名]
+│      │  ├─bicubic             # [缩放算法]  
+│      │  |  ├─img1_160x90.png      # [缩放后的图像]
+│      │  |  └─...
+│      │  ├─bilinear
+│      │  └─...
+│      ├─img1_160x90
+│      │  ├─...
+│      │  └─...
+│      └─...
+├─go
+│  ├─nearest
+│  └─util
+├─matlab
+│  ├─algorithm  # [存放缩放算法]
+│  │  ├─Bicubic
+│  │  ├─...
+│  │  └─...
+│  └─runner     # [入口]
+│     ├─main_horizontal.m       # [处理宽度>高度的图像入口]
+│     ├─main_vertical.m         # [处理高度>宽度的图像入口]
+│     └─scaling_single_img.m    # [缩放单个图像]
+└─view
+    ├─utils     # [工具类]
+    │  ├─chart_barh.py          # [画横向柱状图]
+    │  ├─evaluate.py            # [计算图像评估指标]
+    │  ├─img.py                 # [多张图拼图]
+    │  └─log.py                 # [日志函数]
+    ├─multi_evaluate.py     # [多图评估]
+    ├─evaluate_img1.ipynb   # [评估 img1]
+    ├─evaluate_img2.ipynb   # [评估 img2]
+    ├─evaluate_img3.ipynb   # [评估 img3]
+    ├─...
+    └─...
+```
