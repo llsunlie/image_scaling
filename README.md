@@ -1,22 +1,11 @@
 # 演示
 
-### img1
-Img                        | Evaluate
+<div style="width:150px">Img</div> | <div style="width:150px">Evaluate</div>
 :-------------------------:|:-------------------------:
-![](./view/target/img1/img1_640x360_1920x1080.png)  |  ![](./view/target/img1/evaluate_img1_640x360_1920x1080.png)
-
-
-!["img1_640x360_1920x1080"](./view/target/img1/img1_640x360_1920x1080.png)
-!["evaluate_img1_640x360_1920x1080"](./view/target/img1/evaluate_img1_640x360_1920x1080.png)
-
-!["img1_1920x1080_1280x720"](./view/target/img1/img1_1920x1080_1280x720.png)
-!["evaluate_img1_1920x1080_1280x720"](./view/target/img1/evaluate_img1_1920x1080_1280x720.png)
-
-### img2
-!["img2_360x640_1080x1920"](./view/target/img2/img2_360x640_1080x1920.png)
-!["evaluate_img2_360x640_1080x1920"](./view/target/img2/evaluate_img2_360x640_1080x1920.png)
-!["img2_1080x1920_360x640"](./view/target/img2/img2_1080x1920_360x640.png)
-!["evaluate_img2_1080x1920_360x640"](./view/target/img2/evaluate_img2_1080x1920_360x640.png)
+![](./view/target/img1/img1_640x360_1920x1080.png)  |  ![](./view/target/img1/evaluate_img1_640x360_1920x1080.png) 
+![](./view/target/img1/img1_1920x1080_1280x720.png) |  ![](./view/target/img1/evaluate_img1_1920x1080_1280x720.png) 
+![](./view/target/img2/img2_360x640_1080x1920.png)  |  ![](./view/target/img2/evaluate_img2_360x640_1080x1920.png) 
+![](./view/target/img2/img2_1080x1920_360x640.png)  |  ![](./view/target/img2/evaluate_img2_1080x1920_360x640.png) 
 
 # 插值算法
 
