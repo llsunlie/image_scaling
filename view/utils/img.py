@@ -18,7 +18,7 @@ class MultiImg:
         fig.suptitle(self.suptitle)
         for i in range(self.row):
             for j in range(self.col):
-                idx = i * 5 + j
+                idx = i * self.col + j
                 if idx >= self.img_count:
                     continue
                 img = Image.open(self.img_path_list[idx])
