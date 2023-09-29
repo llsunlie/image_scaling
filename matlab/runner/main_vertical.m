@@ -12,7 +12,7 @@ addpath '../algorithm/Shannon'
 TARGET_DIR = '../../data/target/';
 
 % 构造 IMG 路径与文件名
-IMG_META_NAME = 'img1';
+IMG_META_NAME = 'img3';
 IMG_RESOLUTION_RATIO_LIST = [
     [160, 90];
     [640, 360];

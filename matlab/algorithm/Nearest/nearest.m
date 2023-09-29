@@ -7,19 +7,11 @@ x_ratio = col_num1 / col_num2;
 y_ratio = row_num1 / row_num2;
 
 for i = 1 : row_num2
-<<<<<<< HEAD
     y = fix((i - 1) * y_ratio) + 1;
     for j = 1 : col_num2
         x = fix((j - 1) * x_ratio) + 1;
         for k = 1 : c
             img2(i, j, k) = img1(y, x, k);
-=======
-    y = fix((i-1)*y_ratio) + 1;
-    for j = 1 : col_num2
-        x = fix((j-1)*x_ratio) + 1;
-        for k = 1 : c
-            img2(i,j,k) = img1(y,x,k);
->>>>>>> 1da94d063bebe9218915ee267dcfddc266f6d545
         end
     end
 end
