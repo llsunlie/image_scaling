@@ -3,8 +3,8 @@
 ### img1
 
 <center class="half">
-    <img src="./view/target/img1/img1_640x360_1920x1080.png" height=250/>
-    <img src="./view/target/img1/evaluate_img1_640x360_1920x1080.png" height=250/>
+    <img src="./view/target/img1/img1_640x360_1920x1080.png" height=150/>
+    <img src="./view/target/img1/evaluate_img1_640x360_1920x1080.png" height=150/>
 </center>
 
 !["img1_640x360_1920x1080"](./view/target/img1/img1_640x360_1920x1080.png)
