@@ -99,39 +99,11 @@ class Evaluate:
         self.s_psnr = s_psnr_color(src_img, tgt_img)
 
     def __str__(self):
-        return 'Evaluate(\
-                    source_path = %s, \
-                    target_path = %s, \
-                    psnr = %f, \
-                    ssim = %f, \
-                    ms_ssim = %f, \
-                    ws_psnr = %f, \
-                    s_psnr = %f \
-                )' % (
-                    self.source_path, 
-                    self.target_path, 
-                    self.psnr, 
-                    self.ssim, 
-                    self.ms_ssim, 
-                    self.ws_psnr,
-                    self.s_psnr
+        return 'Evaluate(source_path = "%s",\t target_path = "%s",\t psnr = %f,\t ssim = %f,\t ms_ssim = %f,\t ws_psnr = %f,\t s_psnr = %f)' % (
+                    self.source_path, self.target_path, self.psnr, self.ssim, self.ms_ssim, self.ws_psnr,self.s_psnr
                 )
 
     def __repr__(self):
-        return 'Evaluate(\
-                    source_path = %s, \
-                    target_path = %s, \
-                    psnr = %f, \
-                    ssim = %f, \
-                    ms_ssim = %f, \
-                    ws_psnr = %f, \
-                    s_psnr = %f \
-                )' % (
-                    self.source_path, 
-                    self.target_path, 
-                    self.psnr, 
-                    self.ssim, 
-                    self.ms_ssim, 
-                    self.ws_psnr,
-                    self.s_psnr
+        return 'Evaluate(source_path = "%s",\t target_path = "%s",\t psnr = %f,\t ssim = %f,\t ms_ssim = %f,\t ws_psnr = %f,\t s_psnr = %f)' % (
+                    self.source_path, self.target_path, self.psnr, self.ssim, self.ms_ssim, self.ws_psnr,self.s_psnr
                 )

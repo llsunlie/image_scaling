@@ -16,7 +16,8 @@ class ChartBarh:
 
 
 class MultiChartBarH:
-    def __init__(self, chart_barh_list, row):
+    def __init__(self, suptitle, chart_barh_list, row):
+        self.suptitle = suptitle
         self.chart_barh_list = chart_barh_list
         self.len = len(chart_barh_list)
         self.row = row
@@ -25,6 +26,7 @@ class MultiChartBarH:
     def plot(self):
         colors = plt.get_cmap('viridis')
         fig, ax = plt.subplots(self.row, self.col, figsize=(self.col * 4, self.row * 4))
+        fig.suptitle(self.suptitle)
         for i in range(self.row):
             for j in range(self.col):
                 idx = i * self.col + j
